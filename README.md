@@ -14,15 +14,15 @@ Let's take an example. say we have the following banks:
 
 Following are the payments to be done:\
 &emsp;&emsp;&emsp;    **Debtor Bank**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;                **Creditor Bank** &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; **Amount**
-1. Goldman_Sachs   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;             Bank_of_America &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;             Rs 100
-2. Goldman_Sachs   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;              Wells_Fargo &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;                Rs 300
-3. Goldman_Sachs   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;              BNY &emsp;&emsp;&emsp;&emsp;&nbsp;      Rs 100
-4. Goldman_Sachs   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;              Deutsch Bank &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Rs 100
-5. National_Australia_Bank &emsp;&emsp;&nbsp;&nbsp;       Bank_of_America &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp; Rs 300
-6. National_Australia_Bank &emsp;&emsp;&nbsp;&nbsp;       BNY &emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rs 100
-7. Bank_of_America         &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;       Wells_Fargo &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp; Rs 400
-8. Wells_Fargo             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;       BNY &emsp;&emsp;&emsp;&emsp;&nbsp; Rs 200
-9. BNY   &emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;      Deutsch Bank &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Rs 500
+1. Goldman_Sachs   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Bank_of_America &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;  Rs 100
+2. Goldman_Sachs   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Wells_Fargo &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Rs 300
+3. Goldman_Sachs   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; BNY &emsp;&emsp;&emsp;&emsp;&nbsp; Rs 100
+4. Goldman_Sachs   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Deutsch Bank &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Rs 100
+5. National_Australia_Bank &emsp;&emsp;&nbsp;&nbsp; Bank_of_America &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp; Rs 300
+6. National_Australia_Bank &emsp;&emsp;&nbsp;&nbsp; BNY &emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rs 100
+7. Bank_of_America  &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;    Wells_Fargo &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp; Rs 400
+8. Wells_Fargo  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;      BNY &emsp;&emsp;&emsp;&emsp;&nbsp; Rs 200
+9. BNY   &emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;    Deutsch Bank &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Rs 500
 
 
 This is represented below as a directed graph with the directed edge representing debts.
