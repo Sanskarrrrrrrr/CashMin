@@ -16,13 +16,13 @@ Following are the payments to be done:\
 &emsp;&emsp;&emsp;    **Debtor Bank**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;                **Creditor Bank** &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; **Amount**
 1. Goldman_Sachs   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Bank_of_America &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;  Rs 100
 2. Goldman_Sachs   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Wells_Fargo &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Rs 300
-3. Goldman_Sachs   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; BNY &emsp;&emsp;&emsp;&emsp;&nbsp; Rs 100
+3. Goldman_Sachs   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; BNY &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Rs 100
 4. Goldman_Sachs   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Deutsch Bank &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Rs 100
 5. National_Australia_Bank &emsp;&emsp;&nbsp;&nbsp; Bank_of_America &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp; Rs 300
 6. National_Australia_Bank &emsp;&emsp;&nbsp;&nbsp; BNY &emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rs 100
-7. Bank_of_America  &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;    Wells_Fargo &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp; Rs 400
-8. Wells_Fargo  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;      BNY &emsp;&emsp;&emsp;&emsp;&nbsp; Rs 200
-9. BNY   &emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;    Deutsch Bank &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Rs 500
+7. Bank_of_America  &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp; Wells_Fargo &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp; Rs 400
+8. Wells_Fargo  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;  BNY &emsp;&emsp;&emsp;&emsp;&nbsp; Rs 200
+9. BNY   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;  Deutsch Bank &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Rs 500
 
 
 This is represented below as a directed graph with the directed edge representing debts.
@@ -38,7 +38,7 @@ In our current example we have only three payment modes :
 Following is the list of Banks and their supported payment modes :
 1. Bank_of_America &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;- &emsp; Google_Pay, AliPay, Paytm
 2. Wells_Fargo &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&emsp;&nbsp;- &emsp; Google_Pay, AliPay
-3. BNY &nbsp;&emsp;&nbsp;&nbsp;&nbsp;- &emsp; AliPay
+3. BNY &nbsp;&emsp;&nbsp;&nbsp;&nbsp;- &emsp;       AliPay
 4. Deutsch Bank &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp; - &emsp; Google_Pay, Paytm
 5. Goldman_Sachs &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;- &emsp; Paytm
 6. National_Australia_Bank &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &emsp; AliPay, Paytm  
